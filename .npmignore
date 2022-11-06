@@ -1,5 +1,6 @@
 .git
 .idea
+.vscode
 node_modules/
 nbproject/
 .vs*/
@@ -7,7 +8,6 @@ nbproject/
 Thumbs.db
 gulpfile.js
 
-# CI test files
 test/
 travis/
 .travis.yml
@@ -15,11 +15,6 @@ appveyor.yml
 .travis.yaml
 appveyor.yaml
 
-# Type checking configuration
-tsconfig.json
-tsconfig.*.json
-
-# ESLint configuration
 .eslintrc.json
 .eslintrc.js
 
@@ -32,3 +27,14 @@ admin/i18n
 
 # maintenance scripts
 maintenance/**
+
+
+www_old/
+.git/
+.github/
+main.test.js
+tsconfig.json
+admin/admin.d.ts
+admin/tsconfig.json
+
+lib/adapter-config.d.ts
