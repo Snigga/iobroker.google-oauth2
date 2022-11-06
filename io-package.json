@@ -1,0 +1,74 @@
+{
+    "common": {
+        "name": "google-oauth",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Google oAuth",
+        "titleLang": {
+            "en": "Google oAuth",
+            "de": "Google oAuth",
+            "ru": "Google OAuth",
+            "pt": "Google oAuth",
+            "nl": "Google oAuth",
+            "fr": "Google oAuth",
+            "it": "Google oAuth",
+            "es": "Autenticación automática de Google",
+            "pl": "Autoryzacja Google",
+            "zh-cn": "谷歌 oAuth"
+        },
+        "desc": {
+            "en": "Google oAuth Token Generator",
+            "de": "Google oAuth-Token-Generator",
+            "ru": "Генератор токенов Google oAuth",
+            "pt": "Gerador de token oAuth do Google",
+            "nl": "Google oAuth-tokengenerator",
+            "fr": "Générateur de jetons Google oAuth",
+            "it": "Generatore di token oAuth di Google",
+            "es": "Generador de tokens de Google oAuth",
+            "pl": "Generator tokenów Google oAuth",
+            "zh-cn": "Google oAuth 令牌生成器"
+        },
+        "authors": [
+            "snigga <webmaster@snigga.de>"
+        ],
+        "keywords": [
+            "template"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "google-oauth.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Snigga/ioBroker.google-oauth/master/admin/google-oauth.png",
+        "readme": "https://github.com/Snigga/ioBroker.google-oauth/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "protocols",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
